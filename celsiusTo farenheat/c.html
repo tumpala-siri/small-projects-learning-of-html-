@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature conversion</title>
+    <link rel ="stylesheet" href = "c.css" >
+</head>
+<body>
+    <form>
+        <h1 class=head> Temperature Conversion</h1>
+        <input type="number" id="num" min ="0" required><br>
+        <p> Select unit for conversion</p>
+        <button id="cf" onclick=" CFconversion()"> celsius to faharenheit</button><br>
+        <button id="fc" onclick=" FCconversion()">faharenheit to  celsius</button>
+        <p id="result"></p>
+        
+    </form>
+    <script src="c.js"></script>
+</body>
+</html>
